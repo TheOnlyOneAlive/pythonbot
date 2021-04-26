@@ -1,0 +1,199 @@
+[44.880390167] 2021-04-26 23:04:56,436 - INFO - launcher: Starting sanity checks
+[44.880390167] 2021-04-26 23:04:56,436 - INFO - launcher: Checking for Python 3.5+
+[45.877218246] 2021-04-26 23:04:56,437 - INFO - launcher: Checking console encoding
+[45.877218246] 2021-04-26 23:04:56,437 - INFO - launcher: Setting console encoding to UTF-8
+[45.877218246] 2021-04-26 23:04:56,437 - INFO - launcher: Ensuring we're in the right environment
+[48.869848251] 2021-04-26 23:04:56,440 - INFO - launcher: Adding local bins/ folder to path
+[1048.059701920] 2021-04-26 23:04:57,439 - INFO - launcher: Required checks passed.
+[1049.056768417] 2021-04-26 23:04:57,440 - INFO - launcher: Optional checks passed.
+[1049.056768417] 2021-04-26 23:04:57,440 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.8024694919586182] 2021-04-26 23:04:59,194 - WARNING - musicbot.config | In config.py, line 116 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.8034660816192627] 2021-04-26 23:04:59,195 - INFO - musicbot.config | In config.py, line 127 in run_checks: Using i18n: config/i18n/en.json
+[2.8054602146148682] 2021-04-26 23:04:59,197 - DEBUG - musicbot.bot | In bot.py, line 220 in _setup_logging: Set logging level to INFO
+[2.8064572811126709] 2021-04-26 23:04:59,198 - INFO - musicbot.permissions | In permissions.py, line 83 in __init__: [Owner (auto)] section not found, falling back to permissive default
+[2.8074567317962646] 2021-04-26 23:04:59,199 - DEBUG - musicbot.json_file | In json_file.py, line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.8343825340270996] 2021-04-26 23:04:59,226 - INFO - musicbot.bot | In bot.py, line 91 in __init__: Starting MusicBot release-260819-5-gc87dc05
+[5.6130146980285645] 2021-04-26 23:05:02,004 - DEBUG - musicbot.bot | In bot.py, line 839 in on_ready: Connection established, ready to go.
+[5.6130146980285645] 2021-04-26 23:05:02,004 - DEBUG - musicbot.bot | In bot.py, line 331 in _cache_app_info: Caching app info
+[5.8005728721618652] 2021-04-26 23:05:02,192 - DEBUG - musicbot.bot | In bot.py, line 665 in _scheck_ensure_env: Ensuring data folders exist
+[5.8015122413635254] 2021-04-26 23:05:02,193 - DEBUG - musicbot.bot | In bot.py, line 681 in _scheck_server_permissions: Checking server permissions
+[5.8015122413635254] 2021-04-26 23:05:02,193 - DEBUG - musicbot.bot | In bot.py, line 685 in _scheck_configs: Validating config
+[5.8025090694427490] 2021-04-26 23:05:02,194 - DEBUG - musicbot.config | In config.py, line 227 in async_validate: Validating options...
+[5.8025090694427490] 2021-04-26 23:05:02,194 - DEBUG - musicbot.bot | In bot.py, line 688 in _scheck_configs: Validating permissions config
+[5.8025090694427490] 2021-04-26 23:05:02,194 - DEBUG - musicbot.permissions | In permissions.py, line 94 in async_validate: Validating permissions...
+[5.8025090694427490] 2021-04-26 23:05:02,194 - INFO - musicbot.bot | In bot.py, line 856 in on_ready: Connected: 835821853963452417/Bilibili#0368
+[5.8035058975219727] 2021-04-26 23:05:02,195 - WARNING - musicbot.bot | In bot.py, line 884 in on_ready: Owner could not be found on any guild (id: 436191312828563456)
+
+[5.8035058975219727] 2021-04-26 23:05:02,195 - INFO - musicbot.bot | In bot.py, line 886 in on_ready: Guild List:
+[5.8045032024383545] 2021-04-26 23:05:02,196 - INFO - musicbot.bot | In bot.py, line 889 in on_ready:  - pdd's server
+[5.8055000305175781] 2021-04-26 23:05:02,197 - INFO - musicbot.bot | In bot.py, line 927 in on_ready: Not bound to any text channels
+[5.8055000305175781] 2021-04-26 23:05:02,197 - INFO - musicbot.bot | In bot.py, line 953 in on_ready: Not autojoining any voice channels
+[5.8055000305175781] 2021-04-26 23:05:02,197 - INFO - musicbot.bot | In bot.py, line 958 in on_ready: Options:
+[5.8064987659454346] 2021-04-26 23:05:02,198 - INFO - musicbot.bot | In bot.py, line 960 in on_ready:   Command prefix: >
+[5.8064987659454346] 2021-04-26 23:05:02,198 - INFO - musicbot.bot | In bot.py, line 961 in on_ready:   Default volume: 50%
+[5.8074951171875000] 2021-04-26 23:05:02,199 - INFO - musicbot.bot | In bot.py, line 963 in on_ready:   Skip threshold: 1 votes or 50%
+[5.8074951171875000] 2021-04-26 23:05:02,199 - INFO - musicbot.bot | In bot.py, line 964 in on_ready:   Now Playing @mentions: Disabled
+[5.8074951171875000] 2021-04-26 23:05:02,199 - INFO - musicbot.bot | In bot.py, line 965 in on_ready:   Auto-Summon: Enabled
+[5.8084919452667236] 2021-04-26 23:05:02,200 - INFO - musicbot.bot | In bot.py, line 966 in on_ready:   Auto-Pause: Enabled
+[5.8084919452667236] 2021-04-26 23:05:02,200 - INFO - musicbot.bot | In bot.py, line 967 in on_ready:   Delete Messages: Enabled
+[5.8094902038574219] 2021-04-26 23:05:02,201 - INFO - musicbot.bot | In bot.py, line 969 in on_ready:     Delete Invoking: Disabled
+[5.8094902038574219] 2021-04-26 23:05:02,201 - INFO - musicbot.bot | In bot.py, line 970 in on_ready:   Debug Mode: Disabled
+[5.8104877471923828] 2021-04-26 23:05:02,202 - INFO - musicbot.bot | In bot.py, line 971 in on_ready:   Downloaded songs will be saved
+[5.8114860057830811] 2021-04-26 23:05:02,203 - INFO - musicbot.bot | In bot.py, line 974 in on_ready:   Write current songs to file: Disabled
+[5.8144762516021729] 2021-04-26 23:05:02,206 - INFO - musicbot.bot | In bot.py, line 975 in on_ready:   Author insta-skip: Enabled
+[5.8174686431884766] 2021-04-26 23:05:02,209 - INFO - musicbot.bot | In bot.py, line 976 in on_ready:   Embeds: Enabled
+[5.8184788227081299] 2021-04-26 23:05:02,210 - INFO - musicbot.bot | In bot.py, line 977 in on_ready:   Spotify integration: Disabled
+[5.8194630146026611] 2021-04-26 23:05:02,211 - INFO - musicbot.bot | In bot.py, line 978 in on_ready:   Legacy skip: Disabled
+[5.8204617500305176] 2021-04-26 23:05:02,212 - INFO - musicbot.bot | In bot.py, line 979 in on_ready:   Leave non owners: Disabled
+[28.9614565372467041] 2021-04-26 23:05:25,353 - INFO - musicbot.bot | In bot.py, line 2575 in on_message: 436191312828563456/DerDer#0985: >summon
+[29.4346888065338135] 2021-04-26 23:05:25,826 - DEBUG - musicbot.bot | In bot.py, line 628 in deserialize_queue: Deserializing queue for 700360128217481218
+[29.6950237751007080] 2021-04-26 23:05:26,086 - DEBUG - musicbot.bot | In bot.py, line 390 in get_player: Created player via deserialization for guild 700360128217481218 with 0 entries
+[29.6960213184356689] 2021-04-26 23:05:26,087 - INFO - musicbot.bot | In bot.py, line 1813 in cmd_summon: Joining pdd's server/人上人语音
+[29.6990134716033936] 2021-04-26 23:05:26,090 - DEBUG - musicbot.bot | In bot.py, line 492 in on_player_stop: Running on_player_stop
+[138.3656301498413086] 2021-04-26 23:07:14,757 - INFO - musicbot.bot | In bot.py, line 2575 in on_message: 436191312828563456/DerDer#0985: >help
+[142.9231750965118408] 2021-04-26 23:07:19,315 - INFO - musicbot.bot | In bot.py, line 2575 in on_message: 436191312828563456/DerDer#0985: >help clean
+[171.4112460613250732] 2021-04-26 23:07:47,803 - INFO - musicbot.bot | In bot.py, line 2575 in on_message: 436191312828563456/DerDer#0985: >option
+[300.8681933879852295] 2021-04-26 23:09:57,260 - INFO - musicbot.bot | In bot.py, line 2575 in on_message: 436191312828563456/DerDer#0985: >play https://www.youtube.com/playlist?list=PLt46SZMTQgAmellsugvp8eDXT-XSPgQYH
+[337.2523148059844971] 2021-04-26 23:10:33,644 - DEBUG - musicbot.bot | In bot.py, line 1291 in cmd_play: {'_type': 'playlist', 'entries': <generator object YoutubeTabIE._entries at 0x0AE364B0>, 'id': 'PLt46SZMTQgAmellsugvp8eDXT-XSPgQYH', 'title': 'Tiktok Music 2020 抖音热门歌曲', 'uploader': 'Spacerushh Music', 'uploader_id': 'UC5S3081oqLYmwajy00naihw', 'uploader_url': 'https://www.youtube.com/channel/UC5S3081oqLYmwajy00naihw', 'extractor': 'youtube:tab', 'webpage_url': 'https://www.youtube.com/playlist?list=PLt46SZMTQgAmellsugvp8eDXT-XSPgQYH', 'webpage_url_basename': 'playlist', 'extractor_key': 'YoutubeTab'}
+[368.1473493576049805] 2021-04-26 23:11:04,539 - INFO - musicbot.bot | In bot.py, line 2575 in on_message: 436191312828563456/DerDer#0985: >clear
+[372.1317892074584961] 2021-04-26 23:11:08,523 - DEBUG - musicbot.entry | In entry.py, line 66 in get_ready_future: Created future for None
+[372.3482089042663574] 2021-04-26 23:11:08,740 - INFO - musicbot.bot | In bot.py, line 1415 in cmd_play: Processed 50 songs in 35.08 seconds at 0.70s/song, -0.5/song from expected (0s)
+[372.3571860790252686] 2021-04-26 23:11:08,749 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.3571860790252686] 2021-04-26 23:11:08,749 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.3611748218536377] 2021-04-26 23:11:08,753 - INFO - musicbot.entry | In entry.py, line 441 in _really_download: Download started: https://www.youtube.com/watch?v=tY-fL7qisOo
+[372.3651640415191650] 2021-04-26 23:11:08,757 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.3701498508453369] 2021-04-26 23:11:08,762 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.3731417655944824] 2021-04-26 23:11:08,764 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.3731417655944824] 2021-04-26 23:11:08,764 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.3761332035064697] 2021-04-26 23:11:08,767 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.3771312236785889] 2021-04-26 23:11:08,768 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.3831160068511963] 2021-04-26 23:11:08,774 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.3831160068511963] 2021-04-26 23:11:08,774 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.3871042728424072] 2021-04-26 23:11:08,778 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.3871042728424072] 2021-04-26 23:11:08,778 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.3900964260101318] 2021-04-26 23:11:08,781 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.3910932540893555] 2021-04-26 23:11:08,782 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.3940877914428711] 2021-04-26 23:11:08,785 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.3940877914428711] 2021-04-26 23:11:08,785 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4010684490203857] 2021-04-26 23:11:08,792 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4010684490203857] 2021-04-26 23:11:08,792 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4050559997558594] 2021-04-26 23:11:08,796 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4050559997558594] 2021-04-26 23:11:08,796 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4070498943328857] 2021-04-26 23:11:08,798 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4070498943328857] 2021-04-26 23:11:08,798 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4110395908355713] 2021-04-26 23:11:08,802 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4110395908355713] 2021-04-26 23:11:08,802 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4160287380218506] 2021-04-26 23:11:08,807 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4170260429382324] 2021-04-26 23:11:08,808 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4200160503387451] 2021-04-26 23:11:08,811 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4210143089294434] 2021-04-26 23:11:08,812 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4240171909332275] 2021-04-26 23:11:08,815 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4240171909332275] 2021-04-26 23:11:08,815 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4269976615905762] 2021-04-26 23:11:08,818 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4269976615905762] 2021-04-26 23:11:08,818 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4299919605255127] 2021-04-26 23:11:08,821 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4309885501861572] 2021-04-26 23:11:08,822 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4339814186096191] 2021-04-26 23:11:08,825 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4339814186096191] 2021-04-26 23:11:08,825 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4379689693450928] 2021-04-26 23:11:08,829 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4379689693450928] 2021-04-26 23:11:08,829 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4409596920013428] 2021-04-26 23:11:08,832 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4409596920013428] 2021-04-26 23:11:08,832 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4439516067504883] 2021-04-26 23:11:08,835 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4449498653411865] 2021-04-26 23:11:08,836 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4479441642761230] 2021-04-26 23:11:08,839 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4479441642761230] 2021-04-26 23:11:08,839 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4519312381744385] 2021-04-26 23:11:08,843 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4519312381744385] 2021-04-26 23:11:08,843 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4549238681793213] 2021-04-26 23:11:08,846 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4559216499328613] 2021-04-26 23:11:08,847 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4589254856109619] 2021-04-26 23:11:08,850 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4589254856109619] 2021-04-26 23:11:08,850 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4629032611846924] 2021-04-26 23:11:08,854 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4629032611846924] 2021-04-26 23:11:08,854 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4668922424316406] 2021-04-26 23:11:08,858 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4668922424316406] 2021-04-26 23:11:08,858 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4698834419250488] 2021-04-26 23:11:08,861 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4708807468414307] 2021-04-26 23:11:08,862 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4738738536834717] 2021-04-26 23:11:08,865 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4738738536834717] 2021-04-26 23:11:08,865 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4768640995025635] 2021-04-26 23:11:08,868 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4768640995025635] 2021-04-26 23:11:08,868 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4788582324981689] 2021-04-26 23:11:08,870 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4788582324981689] 2021-04-26 23:11:08,870 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4828493595123291] 2021-04-26 23:11:08,874 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4828493595123291] 2021-04-26 23:11:08,874 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4868376255035400] 2021-04-26 23:11:08,878 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4868376255035400] 2021-04-26 23:11:08,878 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4898293018341064] 2021-04-26 23:11:08,881 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4898293018341064] 2021-04-26 23:11:08,881 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4928216934204102] 2021-04-26 23:11:08,884 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4938192367553711] 2021-04-26 23:11:08,885 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.4968142509460449] 2021-04-26 23:11:08,888 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.4978108406066895] 2021-04-26 23:11:08,889 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5008006095886230] 2021-04-26 23:11:08,892 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5017986297607422] 2021-04-26 23:11:08,893 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5047898292541504] 2021-04-26 23:11:08,896 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5047898292541504] 2021-04-26 23:11:08,896 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5077810287475586] 2021-04-26 23:11:08,899 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5077810287475586] 2021-04-26 23:11:08,899 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5107746124267578] 2021-04-26 23:11:08,902 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5117714405059814] 2021-04-26 23:11:08,903 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5157618522644043] 2021-04-26 23:11:08,907 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5167591571807861] 2021-04-26 23:11:08,908 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5207505226135254] 2021-04-26 23:11:08,912 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5207505226135254] 2021-04-26 23:11:08,912 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5257337093353271] 2021-04-26 23:11:08,917 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5257337093353271] 2021-04-26 23:11:08,917 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5287258625030518] 2021-04-26 23:11:08,920 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5297234058380127] 2021-04-26 23:11:08,921 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5337138175964355] 2021-04-26 23:11:08,925 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5337138175964355] 2021-04-26 23:11:08,925 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5367059707641602] 2021-04-26 23:11:08,928 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5377037525177002] 2021-04-26 23:11:08,929 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5406947135925293] 2021-04-26 23:11:08,932 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5406947135925293] 2021-04-26 23:11:08,932 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5436868667602539] 2021-04-26 23:11:08,935 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5436868667602539] 2021-04-26 23:11:08,935 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5486752986907959] 2021-04-26 23:11:08,940 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5486752986907959] 2021-04-26 23:11:08,940 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[372.5526623725891113] 2021-04-26 23:11:08,944 - DEBUG - musicbot.bot | In bot.py, line 519 in on_player_entry_added: Running on_player_entry_added
+[372.5536596775054932] 2021-04-26 23:11:08,945 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[374.1300914287567139] 2021-04-26 23:11:10,521 - DEBUG - musicbot.entry | In entry.py, line 66 in get_ready_future: Created future for None
+[374.1300914287567139] 2021-04-26 23:11:10,521 - DEBUG - musicbot.entry | In entry.py, line 66 in get_ready_future: Created future for None
+[374.1320874691009521] 2021-04-26 23:11:10,523 - INFO - musicbot.entry | In entry.py, line 441 in _really_download: Download started: https://www.youtube.com/watch?v=7UhoTRVLZYw
+[374.7903733253479004] 2021-04-26 23:11:11,182 - INFO - musicbot.bot | In bot.py, line 2575 in on_message: 436191312828563456/DerDer#0985: >clean 50
+[375.2431881427764893] 2021-04-26 23:11:11,635 - INFO - musicbot.entry | In entry.py, line 451 in _really_download: Download complete: https://www.youtube.com/watch?v=tY-fL7qisOo
+[375.2491731643676758] 2021-04-26 23:11:11,641 - FFMPEG - musicbot.player | In player.py, line 292 in _play: Creating player with options: -nostdin -vn C:\Users\henry\Desktop\music bot 2.0 - Copy\MusicBot\audio_cache\youtube-tY-fL7qisOo-Shao_Nian_-_Mira_PINYIN_LYRICS.webm
+[375.2601439952850342] 2021-04-26 23:11:11,651 - DEBUG - musicbot.player | In player.py, line 305 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0B63B6F0> using <discord.voice_client.VoiceClient object at 0x043F4F50>
+[375.2641403675079346] 2021-04-26 23:11:11,655 - DEBUG - musicbot.bot | In bot.py, line 425 in on_player_play: Running on_player_play
+[375.2651293277740479] 2021-04-26 23:11:11,656 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[377.6973488330841064] 2021-04-26 23:11:14,089 - INFO - musicbot.entry | In entry.py, line 451 in _really_download: Download complete: https://www.youtube.com/watch?v=7UhoTRVLZYw
+[610.4457635879516602] 2021-04-26 23:15:06,837 - DEBUG - musicbot.bot | In bot.py, line 496 in on_player_finished_playing: Running on_player_finished_playing
+[610.4467599391937256] 2021-04-26 23:15:06,838 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[610.4507508277893066] 2021-04-26 23:15:06,842 - DEBUG - musicbot.entry | In entry.py, line 66 in get_ready_future: Created future for None
+[610.4517483711242676] 2021-04-26 23:15:06,843 - DEBUG - musicbot.entry | In entry.py, line 66 in get_ready_future: Created future for C:\Users\henry\Desktop\music bot 2.0 - Copy\MusicBot\audio_cache\youtube-7UhoTRVLZYw-Zhui_-_Chen_Yi_Qian_PINYIN_LYRICS.webm
+[610.4517483711242676] 2021-04-26 23:15:06,843 - FFMPEG - musicbot.player | In player.py, line 292 in _play: Creating player with options: -nostdin -vn C:\Users\henry\Desktop\music bot 2.0 - Copy\MusicBot\audio_cache\youtube-7UhoTRVLZYw-Zhui_-_Chen_Yi_Qian_PINYIN_LYRICS.webm
+[610.4736886024475098] 2021-04-26 23:15:06,865 - DEBUG - musicbot.player | In player.py, line 305 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x043D5430> using <discord.voice_client.VoiceClient object at 0x043F4F50>
+[610.4986219406127930] 2021-04-26 23:15:06,890 - INFO - musicbot.entry | In entry.py, line 441 in _really_download: Download started: https://www.youtube.com/watch?v=Fn_GvHYuKw4
+[610.5026118755340576] 2021-04-26 23:15:06,894 - DEBUG - musicbot.bot | In bot.py, line 425 in on_player_play: Running on_player_play
+[610.5085952281951904] 2021-04-26 23:15:06,900 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[613.8238046169281006] 2021-04-26 23:15:10,215 - INFO - musicbot.entry | In entry.py, line 451 in _really_download: Download complete: https://www.youtube.com/watch?v=Fn_GvHYuKw4
+[822.1134302616119385] 2021-04-26 23:18:38,505 - DEBUG - musicbot.bot | In bot.py, line 496 in on_player_finished_playing: Running on_player_finished_playing
+[822.1134302616119385] 2021-04-26 23:18:38,505 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[822.1164212226867676] 2021-04-26 23:18:38,508 - DEBUG - musicbot.entry | In entry.py, line 66 in get_ready_future: Created future for None
+[822.1164212226867676] 2021-04-26 23:18:38,508 - DEBUG - musicbot.entry | In entry.py, line 66 in get_ready_future: Created future for C:\Users\henry\Desktop\music bot 2.0 - Copy\MusicBot\audio_cache\youtube-Fn_GvHYuKw4-Hou_Lai_Yu_Jian_Ta_-_66_Hu66_PINYIN_LYRICS.webm
+[822.1164212226867676] 2021-04-26 23:18:38,508 - FFMPEG - musicbot.player | In player.py, line 292 in _play: Creating player with options: -nostdin -vn C:\Users\henry\Desktop\music bot 2.0 - Copy\MusicBot\audio_cache\youtube-Fn_GvHYuKw4-Hou_Lai_Yu_Jian_Ta_-_66_Hu66_PINYIN_LYRICS.webm
+[822.1263964176177979] 2021-04-26 23:18:38,518 - DEBUG - musicbot.player | In player.py, line 305 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0B1514B0> using <discord.voice_client.VoiceClient object at 0x043F4F50>
+[822.1303853988647461] 2021-04-26 23:18:38,522 - INFO - musicbot.entry | In entry.py, line 441 in _really_download: Download started: https://www.youtube.com/watch?v=bmJLmeFSVuU
+[822.1313836574554443] 2021-04-26 23:18:38,523 - DEBUG - musicbot.bot | In bot.py, line 425 in on_player_play: Running on_player_play
+[822.1373660564422607] 2021-04-26 23:18:38,529 - DEBUG - musicbot.bot | In bot.py, line 604 in serialize_queue: Serializing queue for 700360128217481218
+[824.4474275112152100] 2021-04-26 23:18:40,839 - INFO - musicbot.entry | In entry.py, line 451 in _really_download: Download complete: https://www.youtube.com/watch?v=bmJLmeFSVuU
+[1030.1601467132568359] 2021-04-26 23:22:06,552 - INFO - musicbot.bot | In bot.py, line 2837 in on_voice_state_update: Pausing in pdd's server/人上人语音 (empty channel or member deafened)
+[1030.1915752887725830] 2021-04-26 23:22:06,583 - DEBUG - musicbot.bot | In bot.py, line 487 in on_player_pause: Running on_player_pause
+[1355.4937481880187988] 2021-04-26 23:27:31,885 - INFO - musicbot.bot | In bot.py, line 830 in on_resumed: 
+Reconnected to discord.
+

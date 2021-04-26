@@ -1,0 +1,40 @@
+[42.884111404] 2021-04-26 22:59:31,073 - INFO - launcher: Starting sanity checks
+[43.881177902] 2021-04-26 22:59:31,074 - INFO - launcher: Checking for Python 3.5+
+[43.881177902] 2021-04-26 22:59:31,074 - INFO - launcher: Checking console encoding
+[44.878244400] 2021-04-26 22:59:31,075 - INFO - launcher: Setting console encoding to UTF-8
+[44.878244400] 2021-04-26 22:59:31,075 - INFO - launcher: Ensuring we're in the right environment
+[47.871351242] 2021-04-26 22:59:31,078 - INFO - launcher: Adding local bins/ folder to path
+[970.484495163] 2021-04-26 22:59:32,000 - INFO - launcher: Required checks passed.
+[971.482276917] 2021-04-26 22:59:32,001 - INFO - launcher: Optional checks passed.
+[972.479820251] 2021-04-26 22:59:32,002 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.6015150547027588] 2021-04-26 22:59:33,631 - WARNING - musicbot.config | In config.py, line 116 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.6015150547027588] 2021-04-26 22:59:33,631 - INFO - musicbot.config | In config.py, line 127 in run_checks: Using i18n: config/i18n/en.json
+[2.6035096645355225] 2021-04-26 22:59:33,633 - DEBUG - musicbot.bot | In bot.py, line 220 in _setup_logging: Set logging level to INFO
+[2.6055431365966797] 2021-04-26 22:59:33,635 - DEBUG - musicbot.json_file | In json_file.py, line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.6324675083160400] 2021-04-26 22:59:33,662 - INFO - musicbot.bot | In bot.py, line 91 in __init__: Starting MusicBot release-260819-5-gc87dc05
+[12.6551890373229980] 2021-04-26 22:59:43,685 - DEBUG - musicbot.bot | In bot.py, line 839 in on_ready: Connection established, ready to go.
+[12.6551890373229980] 2021-04-26 22:59:43,685 - DEBUG - musicbot.bot | In bot.py, line 331 in _cache_app_info: Caching app info
+[12.8285939693450928] 2021-04-26 22:59:43,858 - DEBUG - musicbot.bot | In bot.py, line 665 in _scheck_ensure_env: Ensuring data folders exist
+[12.8304421901702881] 2021-04-26 22:59:43,860 - DEBUG - musicbot.bot | In bot.py, line 681 in _scheck_server_permissions: Checking server permissions
+[12.8304421901702881] 2021-04-26 22:59:43,860 - DEBUG - musicbot.bot | In bot.py, line 685 in _scheck_configs: Validating config
+[12.8304421901702881] 2021-04-26 22:59:43,860 - DEBUG - musicbot.config | In config.py, line 227 in async_validate: Validating options...
+[12.8314387798309326] 2021-04-26 22:59:43,861 - DEBUG - musicbot.bot | In bot.py, line 688 in _scheck_configs: Validating permissions config
+[12.8314387798309326] 2021-04-26 22:59:43,861 - DEBUG - musicbot.permissions | In permissions.py, line 94 in async_validate: Validating permissions...
+[12.8314387798309326] 2021-04-26 22:59:43,861 - INFO - musicbot.bot | In bot.py, line 856 in on_ready: Connected: 835821853963452417/Bilibili#0368
+[12.8314387798309326] 2021-04-26 22:59:43,861 - WARNING - musicbot.bot | In bot.py, line 884 in on_ready: Owner could not be found on any guild (id: 436191312828563456)
+
+[12.8324358463287354] 2021-04-26 22:59:43,862 - INFO - musicbot.bot | In bot.py, line 886 in on_ready: Guild List:
+[12.8334326744079590] 2021-04-26 22:59:43,863 - INFO - musicbot.bot | In bot.py, line 889 in on_ready:  - pdd's server
+[12.8334326744079590] 2021-04-26 22:59:43,863 - INFO - musicbot.bot | In bot.py, line 927 in on_ready: Not bound to any text channels
+[12.8344304561614990] 2021-04-26 22:59:43,864 - INFO - musicbot.bot | In bot.py, line 953 in on_ready: Not autojoining any voice channels
+[12.8354279994964600] 2021-04-26 22:59:43,865 - INFO - musicbot.bot | In bot.py, line 261 in _join_startup_channels: Found resumable voice channel pdd's server/人上人语音
+[12.8354279994964600] 2021-04-26 22:59:43,865 - INFO - musicbot.bot | In bot.py, line 276 in _join_startup_channels: Attempting to join pdd's server/人上人语音
+[13.2952325344085693] 2021-04-26 22:59:44,325 - DEBUG - musicbot.bot | In bot.py, line 628 in deserialize_queue: Deserializing queue for 700360128217481218
+[13.5116496086120605] 2021-04-26 22:59:44,541 - DEBUG - musicbot.bot | In bot.py, line 390 in get_player: Created player via deserialization for guild 700360128217481218 with 0 entries
+[13.5116496086120605] 2021-04-26 22:59:44,541 - INFO - musicbot.bot | In bot.py, line 292 in _join_startup_channels: Joined pdd's server/人上人语音
+[13.5126473903656006] 2021-04-26 22:59:44,542 - DEBUG - musicbot.bot | In bot.py, line 492 in on_player_stop: Running on_player_stop
+[46.5112476348876953] 2021-04-26 23:00:17,541 - INFO - musicbot.bot | In bot.py, line 2575 in on_message: 436191312828563456/DerDer#0985: >shutdown
+[46.853657961] launcher-INFO: All done.
