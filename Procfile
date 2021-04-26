@@ -1,1 +1,1 @@
-worker: python musicbot/bot.py
+worker: python run.bat
